@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args)throws IOException {
         Scanner input = new Scanner(new File("PrettyPrint.dat"));
         ArrayList<String[]> list = new ArrayList<String[]>();
-
+	//Hello World
         while(input.hasNextLine()){
             String str = input.nextLine();
             list.add(str.split(","));
